@@ -7,6 +7,7 @@ const Team = (props) => {
     const playerName = {
         width: '50%',
     };
+
     const playerSalary = {
         float: 'right',
         width: '50%',
@@ -18,11 +19,10 @@ const Team = (props) => {
             <br />
             {addTeam.map((player) => (
                 <div>
-                    <h5>
+                    <p>
                         <span style={playerName}>{player.name}</span>{' '}
                         <span style={playerSalary}>${player.salary}</span>
-                    </h5>
-                    {/* <h5>{player.salary}</h5> */}
+                    </p>
                 </div>
             ))}
             <hr />

@@ -21,10 +21,10 @@ const Players = () => {
         <div className="total-info">
             <div className="players-info">
                 {players.map((player) => (
-                    <PlayersInfo player={player} addPlayer={addPlayer} />
+                    <PlayersInfo player={player} key={player.id} addPlayer={addPlayer} />
                 ))}
             </div>
-            <div className="team-info text-center d-block">
+            <div className="team-info text-center">
                 <h1>Team Info</h1>
                 <h3>Total Players: {players.length}</h3>
                 <hr />

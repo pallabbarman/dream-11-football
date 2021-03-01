@@ -1,11 +1,12 @@
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import './PlayersInfo.css';
 
 const PlayersInfo = (props) => {
     const { player, addPlayer } = props;
     const { name, image, salary, gender, club } = player;
+    const [isClicked, setIsClicked] = useState(false);
 
     return (
         <div className="player-detail">
@@ -17,11 +18,15 @@ const PlayersInfo = (props) => {
             <div className="d-grid gap-2">
                 <button
                     type="button"
+                    disabled={isClicked}
                     className="btn btn-outline-primary"
-                    onClick={() => addPlayer(player)}
+                    onClick={() => {
+                        addPlayer(player);
+                        setIsClicked(true);
+                    }}
                 >
                     <FontAwesomeIcon icon={faUserPlus} />
-                    Add Player
+                    {isClicked ? '✓ Already added to team' : 'Add Player'}
                 </button>
             </div>
         </div>

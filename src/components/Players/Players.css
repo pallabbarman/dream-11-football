@@ -1,16 +1,21 @@
 .total-info {
   display: flex;
   background-color: mintcream;
+  margin-top: 80px;
 }
 .players-info {
   display: flex;
   flex-wrap: wrap;
   width: 65%;
-  border-right: 1px solid black;
 }
 .team-info {
   margin-left: 40px;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   width: 400px;
+  box-shadow: 2px 2px 5px whitesmoke;
+  border-radius: 10px;
+}
+.team-info:hover {
+  background-color: white;
 }

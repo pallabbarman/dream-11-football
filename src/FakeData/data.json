@@ -44,7 +44,7 @@
     "name": "Andrea Pirlo",
     "image": "https://secure.static.goal.com/111600/111656_gallery.jpg",
     "gender": "Male",
-    "club": "Juventus",
+    "club": "Ac Milan",
     "salary": 86565713
   },
   {
@@ -92,7 +92,7 @@
     "name": "Thiago Silva",
     "image": "https://en.as.com/en/imagenes/2020/07/24/football/1595548336_224452_noticia_normal.jpg",
     "gender": "Male",
-    "club": "Chelsey",
+    "club": "Chelsea",
     "salary": 48961702
   },
   {
@@ -125,6 +125,6 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bra-Cos_%2820_%28cropped%29.jpg",
     "gender": "Male",
     "club": "Real Madrid",
-    "salary": 656429938
+    "salary": 65642993
   }
 ]
