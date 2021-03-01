@@ -1,16 +1,18 @@
 [
   {
     "id": 1,
-    "name": "lionel messi",
+    "name": "Lionel Messi",
     "image": "https://avatarfiles.alphacoders.com/129/129844.jpg",
     "gender": "Male",
+    "club": "Fc Barcelona",
     "salary": 15425187
   },
   {
     "id": 2,
     "name": "Ronaldinho",
-    "image": "https://cdn.vox-cdn.com/thumbor/YOUSuZkm7Juuz1ITVcThl6x9590=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/16200578/82383576.jpg.jpg",
+    "image": "https://m.media-amazon.com/images/M/MV5BMmZiOTk1ZmItNjY1NS00ODg2LTkxMGQtMTgwYmNhNjU4MDc4XkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_.jpg",
     "gender": "Male",
+    "club": "Fc Barcelona",
     "salary": 38317990
   },
   {
@@ -18,20 +20,23 @@
     "name": "Neymar",
     "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/neymar_647_080317104728.jpg",
     "gender": "Male",
-    "salary": 91491837.02
+    "club": "PSG",
+    "salary": 91491837
   },
   {
     "id": 4,
     "name": "Kaka",
     "image": "https://cdn.britannica.com/87/139487-050-98D3449D/Kaka-2009.jpg",
     "gender": "Male",
+    "club": "Ac Milan",
     "salary": 15319813
   },
   {
     "id": 5,
     "name": "Zinedine Zidane",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61nN3ODW4yL._AC_SL1050_.jpg",
+    "image": "https://images.wallpapersden.com/image/download/zinedine-zidane-football-player-real-madrid-castilla_Z2ZrZ2iUmZqaraWkpJRnaGhrrWZpZWY.jpg",
     "gender": "Male",
+    "club": "Real Madrid",
     "salary": 43227380
   },
   {
@@ -39,6 +44,7 @@
     "name": "Andrea Pirlo",
     "image": "https://secure.static.goal.com/111600/111656_gallery.jpg",
     "gender": "Male",
+    "club": "Juventus",
     "salary": 86565713
   },
   {
@@ -46,6 +52,7 @@
     "name": "Paolo Maldini",
     "image": "https://i.pinimg.com/originals/09/fd/56/09fd5668fb6f85e3baad2be20139e9db.jpg",
     "gender": "Male",
+    "club": "Ac Milan",
     "salary": 31139735
   },
   {
@@ -53,13 +60,15 @@
     "name": "Robarto Carlos",
     "image": "https://miuc.org/wp-content/uploads/2020/09/shutterstock_1753083521-min-min.jpg",
     "gender": "Male",
+    "club": "Real Madrid",
     "salary": 56428193
   },
   {
     "id": 9,
     "name": "Cafu",
-    "image": "https://i.pinimg.com/originals/b6/93/d6/b693d6253c044a02f5c5ea1663903cb7.jpg",
+    "image": "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1201x641:1203x639)/origin-imgresizer.eurosport.com/2019/09/05/2670252-55227350-2560-1440.jpg",
     "gender": "Male",
+    "club": "Ac Milan",
     "salary": 16906728
   },
   {
@@ -67,13 +76,15 @@
     "name": "Dani Alves",
     "image": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/05/12/681571-dani-alves-afp.jpg",
     "gender": "Male",
+    "club": "Fc Barcelona",
     "salary": 77087246
   },
   {
     "id": 11,
     "name": "Gianluigi Buffon",
-    "image": "https://i.pinimg.com/originals/dc/ab/37/dcab37c9c59397acc9fb7dde7eb8daf4.jpg",
+    "image": "https://www.thesun.co.uk/wp-content/uploads/2020/03/NINTCHDBPICT000548679056.jpg",
     "gender": "Male",
+    "club": "Juventus",
     "salary": 78508713
   },
   {
@@ -81,6 +92,7 @@
     "name": "Thiago Silva",
     "image": "https://en.as.com/en/imagenes/2020/07/24/football/1595548336_224452_noticia_normal.jpg",
     "gender": "Male",
+    "club": "Chelsey",
     "salary": 48961702
   },
   {
@@ -88,6 +100,7 @@
     "name": "Cristiano Ronaldo",
     "image": "https://images.daznservices.com/di/library/GOAL/b1/ea/cristiano-ronaldo-portugal-2019-20_1nn5t2cbsekcz1thpm0ptkrfbw.jpg?t=-239941884&quality=60&w=1200&h=800",
     "gender": "Male",
+    "club": "Juventus",
     "salary": 2228701
   },
   {
@@ -95,6 +108,7 @@
     "name": "alisson becker",
     "image": "https://d3vlf99qeg6bpx.cloudfront.net/content/uploads/2021/02/26072048/alisson-1.jpg",
     "gender": "Male",
+    "club": "Liverpool",
     "salary": 75588333
   },
   {
@@ -102,6 +116,15 @@
     "name": "Sergio Ramos",
     "image": "https://i.pinimg.com/originals/f9/69/9e/f9699ea54403eeb1a70282869aa9b56d.jpg",
     "gender": "Male",
+    "club": "Real Madrid",
     "salary": 21729938
+  },
+  {
+    "id": 16,
+    "name": "Marcelo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bra-Cos_%2820_%28cropped%29.jpg",
+    "gender": "Male",
+    "club": "Real Madrid",
+    "salary": 656429938
   }
 ]

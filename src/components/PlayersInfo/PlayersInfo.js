@@ -5,21 +5,25 @@ import './PlayersInfo.css';
 
 const PlayersInfo = (props) => {
     const { player, addPlayer } = props;
-    const { name, image, salary, gender } = player;
+    const { name, image, salary, gender, club } = player;
+
     return (
-        <div>
+        <div className="player-detail">
             <img src={image} alt="" />
-            <h2 className="card-text">{name}</h2>
-            <h4 className="card-text">Gender: {gender}</h4>
-            <p className="card-text">Salary: ${salary}</p>
-            <button
-                type="button"
-                className="btn btn-outline-primary"
-                onClick={() => addPlayer(player)}
-            >
-                <FontAwesomeIcon icon={faUserPlus} />
-                Add Player
-            </button>
+            <h2>{name}</h2>
+            <p>Gender: {gender}</p>
+            <p>Club: {club}</p>
+            <p>Salary: ${salary}</p>
+            <div className="d-grid gap-2">
+                <button
+                    type="button"
+                    className="btn btn-outline-primary"
+                    onClick={() => addPlayer(player)}
+                >
+                    <FontAwesomeIcon icon={faUserPlus} />
+                    Add Player
+                </button>
+            </div>
         </div>
     );
 };

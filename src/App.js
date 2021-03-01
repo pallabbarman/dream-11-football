@@ -3,7 +3,7 @@ import Players from './components/Players/Players';
 
 function App() {
     return (
-        <div>
+        <div className="container">
             <Players />
         </div>
     );
