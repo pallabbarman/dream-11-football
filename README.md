@@ -1,3 +1,3 @@
 # Dream 11 Football Team
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my dream football team [Live Site](https://github.com/facebook/create-react-app)

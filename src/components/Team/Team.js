@@ -4,6 +4,7 @@ const Team = (props) => {
     const { team } = props;
     const addTeam = team;
     const salary = addTeam.reduce((sum, player) => sum + player.salary, 0);
+
     const playerName = {
         width: '50%',
     };
